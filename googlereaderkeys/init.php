@@ -23,9 +23,9 @@ class GoogleReaderKeys extends Plugin {
 			"k" => "prev_article_noscroll",
 			"n" => "next_article_noexpand",
 			"p" => "prev_article_noexpand",
-			"N" => "next_feed",
-			"P" => "prev_feed",
-			"V" => "open_in_new_window",
+			"J" => "next_feed",
+			"K" => "prev_feed",
+			"v" => "open_in_new_window",
 			"r" => "feed_refresh",
 			"M" => "feed_catchup",
 			"m" => "toggle_unread",
@@ -35,6 +35,7 @@ class GoogleReaderKeys extends Plugin {
 			"(32)|space" => "article_scroll_down",
 			"(38)|up" => "article_scroll_up",
 			"(40)|down" => "article_scroll_down",
+            "A" => "feed_catchup",
 		);
 
 		$hotkeys = array_merge($hotkeys, $hotkey_overrides);
